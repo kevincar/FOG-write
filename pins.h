@@ -1,3 +1,6 @@
+#ifndef PINS_H_
+#define PINS_H_
+
 // ALPHA OMEGA DB 25 PORT SYSTEM
 #define DIG01 48  // PIN 1
 #define DIG03 46  // PIN 2
@@ -27,21 +30,21 @@
 #define ANL02 A15 // PIN 25
 
 // NATUS VGA PORT (15 PIN Serial Port)
-#define TRG1 A1  // PIN 1
-#define TRG2 A12 // PIN 2
-#define TRG3 A14 // PIN 3
-#define TRG4 11  // PIN 4
-#define TRG5 12  // PIN 5
-#define TRG6 A5  // PIN 6
-#define TRG7 A8  // PIN 7
-#define TRG8 A13 // PIN 8
-#define LT A15   // PIN 9
-#define NGND1    // PIN 10
-#define NGND2    // PIN 11
-#define NGND3    // PIN 12
-#define NGND4    // PIN 13
-#define NGND5    // PIN 14
-#define NGND6    // PIN 15
+#define TRG1 A0 // PIN 1
+#define TRG2 A1 // PIN 2
+#define TRG3 A2 // PIN 3
+#define TRG4 A3 // PIN 4
+#define TRG5 A4 // PIN 5
+#define TRG6 A5 // PIN 6
+#define TRG7 A6 // PIN 7
+#define TRG8 A7 // PIN 8
+#define LT A8   // PIN 9
+#define NGND1   // PIN 10
+#define NGND2   // PIN 11
+#define NGND3   // PIN 12
+#define NGND4   // PIN 13
+#define NGND5   // PIN 14
+#define NGND6   // PIN 15
 
 #define BTN 18
 
@@ -49,3 +52,5 @@ int PINS_NS[16] = {DIG01, DIG02, DIG03, DIG04, DIG05, DIG06, DIG07, DIG08,
                    DIG09, DIG10, DIG11, DIG12, DIG13, DIG14, DIG15, DIG16};
 
 int PINS_NATUS[9] = {TRG1, TRG2, TRG3, TRG4, TRG5, TRG6, TRG7, TRG8, LT};
+
+#endif  /* PINS_H_ */
