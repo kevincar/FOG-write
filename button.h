@@ -1,6 +1,8 @@
 #ifndef BUTTON_H_
 #define BUTTON_H_
 
+#include "NeuroSmart.h"
+#include "natus.h"
 #include "pins.h"
 
 void button_on_press();
