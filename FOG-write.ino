@@ -38,8 +38,8 @@
 
 // =================================================================
 
-#include "pins.h"
 #include "button.h"
+#include "pins.h"
 #include "ports.h"
 
 void setup() {
