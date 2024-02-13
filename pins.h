@@ -53,4 +53,4 @@ int PINS_NS[16] = {DIG01, DIG02, DIG03, DIG04, DIG05, DIG06, DIG07, DIG08,
 
 int PINS_NATUS[9] = {TRG1, TRG2, TRG3, TRG4, TRG5, TRG6, TRG7, TRG8, LT};
 
-#endif  /* PINS_H_ */
+#endif /* PINS_H_ */
